@@ -1,0 +1,14 @@
+.company-name {
+    opacity: 0;
+    animation: fadeIn 5s forwards;
+    font-size: 3rem;       /* Adjust the size as needed */
+    /*font-weight: bold;     /* Optional: Makes the text bold */
+    text-align: center;    /* Ensures text is centered within the div */
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
